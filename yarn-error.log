@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Stanislaw\.node\corepack\yarn\1.22.15\bin\yarn.js add lazy-youtube-video
+  C:\Program Files\nodejs\node.exe C:\Users\Stanislaw\.node\corepack\yarn\1.22.15\bin\yarn.js add Popup
 
 PATH: 
-  C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\BellSoft\LibericaJDK-8\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Windows Resource Kits\Tools\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Bandizip\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\BellSoft\LibericaJDK-8\\bin;C:\Users\Stanislaw\AppData\Local\Android\Sdk\tools;C:\Users\Stanislaw\AppData\Local\Android\Sdk\tools\bin;C:\Users\Stanislaw\AppData\Local\Android\Sdk\platform-tools;C:\Users\Stanislaw\AppData\Local\Microsoft\WindowsApps;C:\Users\Stanislaw\AppData\Local\Programs\Microsoft VS Code\bin;E:\Programs\PyCharm 2021.3.1\bin;E:\Programs\IntelliJ IDEA 2021.3.1\bin;C:\Users\Stanislaw\AppData\Roaming\npm;C:\ProgramData\Stanislaw\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+  C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\BellSoft\LibericaJDK-8\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Windows Resource Kits\Tools\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Bandizip\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\BellSoft\LibericaJDK-8\\bin;C:\Users\Stanislaw\AppData\Local\Android\Sdk\tools;C:\Users\Stanislaw\AppData\Local\Android\Sdk\tools\bin;C:\Users\Stanislaw\AppData\Local\Android\Sdk\platform-tools;C:\Users\Stanislaw\AppData\Local\Microsoft\WindowsApps;C:\Users\Stanislaw\AppData\Local\Programs\Microsoft VS Code\bin;E:\Programs\PyCharm 2021.3.1\bin;E:\Programs\IntelliJ IDEA 2021.3.1\bin;C:\Users\Stanislaw\AppData\Roaming\npm;C:\ProgramData\Stanislaw\atom\bin;C:\Users\Stanislaw\AppData\Local\Microsoft\WindowsApps
 
 Yarn version: 
   1.22.15
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/lazy-youtube-video: Not found
+  Error: https://registry.yarnpkg.com/Popup: Not found
       at Request.params.callback [as _callback] (C:\Users\Stanislaw\.node\corepack\yarn\1.22.15\lib\cli.js:66140:18)
       at Request.self.callback (C:\Users\Stanislaw\.node\corepack\yarn\1.22.15\lib\cli.js:140885:22)
       at Request.emit (node:events:520:28)
