@@ -1,40 +1,23 @@
-const popupLinks = document.querySelectorAll('.popup-link');
-const body = document.querySelector('body');
-const lockPadding = document.querySelectorAll('.lock-padding');
-const popupCloseIcon = document.querySelectorAll('.close-popup');
-let unlock = true;
-
-const timeout = 800;
+const modal = document.getElementsByClassName('popup');
+var btn = document.getElementById('request-call-btn');
+const modal2 = document.getElementById('popup-group')
+const openSecond = document.getElementsByClassName('background-groups-name_bg')
 
 
-//работа с ссылками
-
-if(popupLinks.length > 0){
-    for (let index = 0; index <popupLinks.length; index++){
-        const popupLink = popupLinks[index];
-        popupLink.addEventListener("click", function (e){
-            const popupName = popupLink.getAttribute('href').replace('#', '');
-            const currentPopup = document.getElementById(popupName);
-            popupOpen(currentPopup);
-            e.preventDefault(); //запрет на перезагрузку страницы
-        });
-    }
+function openModal(){
+    modal[0].style.display = "flex";
 }
 
-
-if (popupCloseIcon.length > 0){
-    for(let index = 0; index < popupCloseIcon.length; index++){
-        const el = popupCloseIcon[index];
-        el.addEventListener('click', function(e){
-            popupClose(el.closest('.popup'));
-            e.preventDefault();
-        });
-    }
+function closeModal(){
+    modal[0].style.display = "none";
 }
 
-function popupOpen(currentPopup){
-    if(currentPopup && unlock) {
-        
-
-    }
+function openSecondModal(){
+    debugger
+    modal2[0].style.display = "flex";
 }
+
+function closeSecondModal(){
+    modal2[0].style.display = "none"
+}
+

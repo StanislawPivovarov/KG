@@ -37,7 +37,7 @@
                      <span class="number"><a href="tel:+79191020010">+7 (919) 10-200-10</a></span>
                   </p>
                </div>
-               <button href="#popup" class="request-call">Заказать звонок</button>
+               <button onclick="openModal()" href="#" class="request-call" id="request-call-btn">Заказать звонок</button>
             </div>
          </div>
          <div class="navigation-container">
@@ -368,7 +368,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-12">
-                     <img src="img/5/text-bg.png" alt="" class="background-groups-name_bg">
+                     <img src="img/5/text-bg.png" alt="" class="background-groups-name_bg" onclick="openSecondModal">
                      <p class="background-groups-name">
                         Наши группы:
                      </p>
@@ -1004,7 +1004,7 @@
          </div>
       </div>
 
-      <div class="popup" id="popup">
+      <div class="popup" id="popup" onclick="closeModal()">
          <div class="popup__container">
             <div class="popup__body">
                <div class="popup__content"></div>
@@ -1014,6 +1014,56 @@
                <button class="popup__body-submit">Записаться на занятие</button>
             </div>
          </div>
+      </div>
+      <div class="popup-groups" id="popup-group" onclick="closeSecondModal()">
+            <div class="popup-groups-body">
+               <div class="popup-groups-content">
+                  <div class="container card-pop-up">
+                     <div class="row">
+                        <img src="img/5/paper_2 копия.png" alt="" class="popup-bg">
+                     </div>
+                     <div class="row popup-filling">
+                        <div class="col-5">
+                           <p class="card-header">
+                              группы по уходу и <br>
+                              присмотру за детьми
+                           </p>
+                           <p class="card-age">
+                              (Группа от 1 года и старше, не более 12 человек)
+                           </p>
+                           <p class="card-target">
+                              <span class="tcolor">
+                              Цель:
+                              </span>
+                              адаптация к детскому саду, <br>
+                              формирование необходимых умений и <br>
+                              навыков, всестороннее развитие личности <br>
+                              ребенка.
+                           </p>
+                           <p class="card-hours">
+                              <span class="tcolor">
+                              Часы пребывания:
+                              </span>
+                              07.30 до 19.00. 5-ти <br>
+                              разовое питание. Он-лайн <br>
+                              видеонаблюдение.
+                           </p>
+                           <p class="card-exercices">
+                              <span class="tcolor">Занятия:</span>  раннее развитие, творчество, <br>
+                              музыкальное и физкультурное. Прогулки.
+                           </p>
+                        </div>
+                        <div class="col-7">
+                           <div class="carousel-2">
+                              <img src="img/5/deti.png" alt="" class="kids">
+                              <img src="img/5/deti.png" alt="" class="kids">
+                              <img src="img/5/deti.png" alt="" class="kids">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
       </div>
    </body>
 </html>
