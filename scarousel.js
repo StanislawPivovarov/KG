@@ -13,6 +13,6 @@ $(document).on('ready', function() {
       infinite: true,
       slidesToShow: 1,
       prevArrow: '<img src="img/10/leaf-left.png" class="slick-prev slick-arrow" style="width: 12%; height: auto; z-index: 0; left: -40px; padding-top: 50px;">',
-      nextArrow: '<img src="img/10/leaf-right.png" class="slick-next slick-arrow" style="width: 12%; height: auto; z-index:; right: -40px";>',
+      nextArrow: '<img src="img/10/leaf-right.png" class="slick-next slick-arrow" style="width: 12%; height: auto; right: -40px; padding-top: 50px;">',
     });
   })
