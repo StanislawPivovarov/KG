@@ -1,17 +1,47 @@
-var gulp = require('gulp');
-  var gls = require('gulp-live-server');
-  gulp.task('serve', function() {
-    //2. serve at custom port
-    var server = gls.static('/', 8888);
-    server.start();
- 
-    //3. serve multi folders
-    var server = gls.static(['dist', '.tmp']);
-    server.start();
- 
-    //use gulp.watch to trigger server actions(notify, start or stop)
-    gulp.watch(['*.css', '*.html'], function (file) {
-      server.notify.apply(server, [file]);
-    });
-  });
+const gulp = require('gulp');
+const autoprefixer = require('gulp-autoprefixer');
+const sourcemaps = require('gulp-sourcemaps');
+const browserSync = require('browser-sync').create();
+const babel = require('gulp-babel');
+const cssmin = require('gulp-cssmin');
+const rename = require('gulp-rename');
 
+
+//JS
+ function scriptJS(done){
+  return gulp.src('./*.js')
+  .pipe(babel({
+    presets: ['@babel/preset-env']
+  }))
+  .pipe(gulp.dest('./public'))
+  done();
+ }
+
+
+ //css
+ function styleCSS(done){
+  return gulp.src('./*.css')
+  .pipe(sourcemaps.init())
+  .pipe(autoprefixer({
+    cascade: false
+  }))
+  .pipe(cssmin())
+  .pipe(rename({
+    suffix: '.min'
+  }))
+  .pipe(sourcemaps.write('./'))
+  .pipe(gulp.dest('./public'))
+  done()
+}
+
+function liveServer(done){
+  browserSync.init({
+    server: {
+      baseDir: "./"
+    }
+  })
+}
+
+
+gulp.task('default', gulp.series(scriptJS, styleCSS))
+gulp.task('serve', liveServer)

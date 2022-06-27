@@ -1,0 +1,46 @@
+.description {
+    position: relative;
+    text-align: center;
+	font-family: Lobster, serif;
+	font-size: 24px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.adress-adress {
+    position: relative;
+	text-align: center;
+	font-family: Fregat, serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+a, a:visited {
+    color: #04b;
+    text-decoration: none !important;
+}
+.ymaps-2-1-79-balloon__layout{
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    height: 150px;
+}
+.ymaps-2-1-79-balloon{
+    box-shadow: none !important;
+}
+.ymaps-2-1-79-balloon__tail{
+    display: none !important;
+}
+.ymaps-2-1-79-balloon__close-button{
+    background: url('./img/13/Group1.svg') 100% no-repeat !important;
+    z-index: 100;
+    opacity: 1;
+}
+.ymaps-2-1-79-balloon__close{
+    margin-right: 11px;
+}
+.ymaps-2-1-79-balloon__content{
+    top: -20px;
+}
