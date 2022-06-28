@@ -1111,18 +1111,21 @@ body {
 
 .logoped-a{
 	position: absolute;
-	left: 20px;
+	left: 26px;
 }
 .playzone-a{
 	position: absolute;
-	left: 20px;
+	top: 4px;
+	left: 25px;
 }
 .bdays-a{
-	left: 0px;
-	top: -10px;
+	width: 300px;
+    left: -76px;
+    top: 3px;
 }
 .workshops-a{
-	
+	left: 26px;
+	top: -6px;
 }
 
 .logoped,
@@ -1187,12 +1190,12 @@ body {
 .group-name {
 	list-style-type: none;
 	position: relative;
-	left: -100px;
+	left: -91px;
 	top: -76px;
 }
 
 .group-name li {
-	padding-left: 156px;
+	padding-left: 152px;
 	position: relative;
 	font-family: Fregat, serif;
 	font-size: 22px;
@@ -1240,7 +1243,6 @@ body {
 	margin-top: 24px;
 	height: 75%;
 }
-
 .desc-images p {
 	position: relative;
 	display: inline-block;
@@ -1256,6 +1258,9 @@ body {
 .desc-images a {
 	text-decoration: none;
 	color: #ffffff;
+}
+.sport-txt{
+	left: -14px;
 }
 
 .slogan-second {
