@@ -1,0 +1,50 @@
+.gallery-img{
+    position: absolute;
+}
+.gallery__one{
+    position: absolute;
+    top: 166px;
+    left: 553px;
+    transform: rotate(-15deg);
+}
+.gallery__two{
+    position: absolute;
+    top: 94px;
+    left: 850px;
+    transform: rotate(15deg);
+}
+.gallery__three{
+    position: absolute;
+    top: 169px;
+    left: 1047px;
+    transform: rotate(-10deg);
+}
+.gallery__eight{
+    position: absolute;
+    left: 1142px;
+    top: 470px;
+    transform: rotate(-8deg);
+}
+.gallery__seven{
+    position: absolute;
+    left: 954px;
+    top: 470px;
+    transform: rotate(-20deg);
+}
+.gallery__six{
+    position: absolute;
+    left: 689px;
+}
+.gallery__five{
+    position: absolute;
+    left: 435px;
+    top: 473px;
+    transform: rotate(20deg);
+}
+.gallery__four{
+    position: absolute;
+    left: 170px;
+    top: 473px;
+    transform: rotate(5deg);
+
+}

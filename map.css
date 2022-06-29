@@ -44,3 +44,6 @@ a, a:visited {
 .ymaps-2-1-79-balloon__content{
     top: -20px;
 }
+.ymaps-2-1-79-balloon__layout{
+    top: -42px;
+}

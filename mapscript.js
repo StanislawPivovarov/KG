@@ -22,7 +22,9 @@ ymaps.ready(function () {
             iconImageSize: [52, 70],
             // Смещение левого верхнего угла иконки относительно
             // её "ножки" (точки привязки).
-            iconImageOffset: [-5, -38]
+            iconImageOffset: [-5, -38],
+            hideIconOnBalloonOpen: false
+            
          } 
 );
        

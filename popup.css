@@ -1,4 +1,4 @@
-.popup{
+/* .popup{
     position: fixed;
     display: none;
     justify-content: center;
@@ -80,24 +80,79 @@
     border-radius: 28px;
     font-size: 20px;
     font-weight: bold;
+} */
+
+.ui-dialog{
+    width: 450px !important;
+    height: 333px !important;
+    justify-items: center !important;
+    align-content: center !important;
+    position: relative !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
 }
-
-
-/* 
-второй попап
-*/
-.popup-bg{
-    position: relative;
-    width: 100%;
-    padding-top: 20%;
-
-}
-.popup-filling{
-    position: relative;
-    top: -450px;
-    left: 50px;
-}
-
-#popup-group{
+.ui-widget-header{
     display: none;
+}
+.ui-widget-content{
+    background-color: #36aee0 !important;
+    border: none !important;
+    background-image: none !important;
+}
+.ui-corner-all{
+    border-radius: 35px !important;
+}
+.ui-dialog-content{
+    border-radius: 35px !important;
+}
+
+.dialog__request-call{
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+}
+.dialog__body-name{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    border-radius: 10px;
+    border: none;
+    height: 51px;
+}
+.dialog__body-tel{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    margin-top: 22px;
+    border-radius: 10px;
+    border: none;
+    height: 51px;
+}
+.dialog__submit{
+    width: 340px !important;
+    height: 64px !important;
+    border-radius: 28px !important;
+    border: none !important;
+    background: #ef7c00 !important;
+    color: #ffffff !important;
+    margin-top: 25px;
+    position: relative !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    cursor: pointer;
+}
+.ui-widget-overlay,
+.ui-front{
+    z-index: 10000 !important;
+}
+.dialog__body-name, .dialog__body-tel{
+    padding-left: 50px !important;
+	font-family: Lobster, serif !important;
+	font-size: 20px !important;
 }
